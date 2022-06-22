@@ -1,0 +1,23 @@
+.movie-container {
+	max-width: 800px;
+	margin: 100px auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 20px;
+}
+
+.post-container .box-1 {
+	/* background-color: rgb(61, 184, 255); */
+	color: whitesmoke;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.movie-container img {
+	width: 200px;
+	border-radius: 5px;
+}
+
+.box-1 p {
+	font-size: 14px;
+}
